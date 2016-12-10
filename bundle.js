@@ -46,6 +46,7 @@
 
 	const asistentes = [];
 	asistentes.push(__webpack_require__(1));
+	asistentes.push(__webpack_require__(2));
 	
 	const printname = persona => {
 	  console.log(persona.name);
@@ -66,6 +67,20 @@
 		"github": "gaboesquivel",
 		"linkedin": "gaboesquivel",
 		"ama": "https://github.com/gaboesquivel/ama"
+	};
+
+/***/ },
+/* 2 */
+/***/ function(module, exports) {
+
+	module.exports = {
+		"name": "Laura Castillo",
+		"bio": "Software Developer",
+		"website": "http://laubits.com",
+		"email": "contact@laubits.com",
+		"twitter": "laubits",
+		"github": "laubits",
+		"linkedin": "laubits"
 	};
 
 /***/ }
