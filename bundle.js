@@ -47,6 +47,8 @@
 	const asistentes = [];
 	asistentes.push(__webpack_require__(1));
 	asistentes.push(__webpack_require__(2));
+	asistentes.push(__webpack_require__(3));
+	asistentes.push(__webpack_require__(4));
 	
 	const printname = persona => {
 	  console.log(persona.name);
@@ -81,6 +83,36 @@
 		"twitter": "laubits",
 		"github": "laubits",
 		"linkedin": "laubits"
+	};
+
+/***/ },
+/* 3 */
+/***/ function(module, exports) {
+
+	module.exports = {
+		"name": "Jeremias Ceciliano",
+		"bio": "Fullstack software developer.",
+		"website": "http://jereportal.com",
+		"email": "jecel0911@gmail.com",
+		"twitter": "jecel0911",
+		"github": "jecel0911",
+		"linkedin": "jeremiasceciliano",
+		"ama": "https://github.com/jecel0911/ama"
+	};
+
+/***/ },
+/* 4 */
+/***/ function(module, exports) {
+
+	module.exports = {
+		"name": "Roberto Viquez",
+		"bio": "Software Developer. Avid learner and infinite junior developer.",
+		"website": "",
+		"email": "robertoviquez@gmail.com",
+		"twitter": "viquez1980",
+		"github": "rviquez",
+		"linkedin": "rviquez",
+		"ama": ""
 	};
 
 /***/ }
